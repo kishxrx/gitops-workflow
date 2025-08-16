@@ -18,7 +18,7 @@ This repository contains a simple Flask web application. The primary goal is to 
 
 ### 🔮 Future Vision
 
-The long-term goal is to evolve this simple application into a **"DevOps Daily Quote Engine"** that displays a new, insightful quote about software development and operations on every page refresh.
+The long-term goal is to evolve this simple application into a modern frontend webpage
 
 ---
 
@@ -60,29 +60,5 @@ This project follows a standard Git branching model to ensure a clean and manage
 -   **`main`**: This branch contains the production-ready, stable code. All merges into `main` are done from the `dev` branch and result in a new version tag.
 -   **`dev`**: This is the primary development branch. All completed feature branches are merged into `dev` for integration testing.
 -   **`feature/*`**: All new features or bug fixes are developed on a dedicated `feature` branch (e.g., `feature/add-new-quote-source`). These are merged into `dev` upon completion.
-
----
-
-Congratulations on completing your task!
-
-
-
-
-
-
-# GitOps Workflow Project
-
-This project is a demonstration of a standard Git and DevOps workflow.
-
-## 🚀 About The Project
-
-This repository contains a simple Flask web application. The primary goal is to practice version control best practices, including:
-- Branching strategies (main, dev, feature)
-- Using Pull Requests for code review and merging
-- Documenting work with proper commit messages and tags
-
-### The App
-
-The `app.py` file runs a simple web server that displays a welcome message.
 
 **Future Vision:** To evolve this into a mordern aesthetic website
