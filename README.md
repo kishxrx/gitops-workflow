@@ -1,12 +1,4 @@
-# GitOps Workflow Project 🚀
-
-![Python Version](https://img.shields.io/badge/python-3.9+-blue.svg)
-![Framework](https://img.shields.io/badge/Framework-Flask-green.svg)
-![Status](https://img.shields.io/badge/status-active-brightgreen)
-
-A demonstration of a standard Git and DevOps workflow, created as part of the Elevate Labs Internship. This project serves as a practical example of version control best practices.
-
-# GitOps Workflow Project 🚀
+# GitOps Workflow Project
 
 ![Python Version](https://img.shields.io/badge/python-3.9+-blue.svg)
 ![Framework](https://img.shields.io/badge/Framework-Flask-green.svg)
@@ -17,7 +9,7 @@ This project demonstrates a complete Git and DevOps workflow, from version contr
 
 ---
 
-## ✨ About The Project
+##  About The Project
 
 This repository contains a simple Flask web application that has been fully containerized with Docker and is set up for Continuous Integration and Continuous Deployment (CI/CD) using GitHub Actions.
 
@@ -80,5 +72,3 @@ A key part of this project was setting up and debugging the CI/CD pipeline. Here
 This troubleshooting process was a valuable, real-world example of how to diagnose and solve issues in a DevOps environment.
 
 ---
-
-Congratulations on completing this advanced stage of your project!
