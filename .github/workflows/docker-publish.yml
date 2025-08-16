@@ -3,11 +3,12 @@ name: Docker Image CI
 on:
   push:
     tags:
-      - 'v*.*.*'
+      - "v*"
 
 jobs:
   build_and_push:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
