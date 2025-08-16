@@ -55,7 +55,7 @@ Follow these steps to get a local copy up and running.
 
 ##  workflow Git Workflow
 
-This project follows a standard Git branching model to ensure a clean and manageable codebase.
+This project follows a standard Git branching model to ensure a clean and manageable codebase. 
 
 -   **`main`**: This branch contains the production-ready, stable code. All merges into `main` are done from the `dev` branch and result in a new version tag.
 -   **`dev`**: This is the primary development branch. All completed feature branches are merged into `dev` for integration testing.
