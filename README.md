@@ -26,15 +26,13 @@ The long-term goal is to evolve this application into a **"DevOps Daily Quote En
 
 ## 🐳 Docker Hub Repository
 
-The official Docker image for this project is hosted on Docker Hub.
+**The official Docker image for this project is hosted on Docker Hub.**
 
 https://hub.docker.com/r/kishxrx/gitops-workflow
 
-### You can pull the latest version using the following command:
+ **You can pull the latest version using the following command:**
 
-    ```sh
     docker pull kishxrx/gitops-workflow:latest
-    ```
 
 ---
 
