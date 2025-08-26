@@ -63,11 +63,19 @@ This project follows a modern DevOps workflow to ensure code quality and deploym
 A key part of this project was setting up and debugging the CI/CD pipeline. Here are some of the challenges faced and lessons learned:
 
 -   **Production Server:** The initial Flask development server was upgraded to a production-grade WSGI server (**Gunicorn**) to ensure the Docker container was suitable for real-world use.
--   **GitHub Actions Workflow:** The workflow did not initially appear in the "Actions" tab. This led to a debugging process that involved:
-    -   Verifying the file path (`.github/workflows/docker-publish.yml`).
-    -   Checking for syntax errors in the YAML file.
-    -   Confirming that repository settings had Actions enabled.
--   **The Solution:** The issue was resolved by systematically simplifying the workflow file to identify a subtle syntax error related to a secret name (`DOCKERHUB_TOKEN` vs. `DOCKERHUB_PASSWORD`). This highlighted the importance of meticulous syntax and configuration management in CI/CD pipelines.
+-   **GitHub Actions Activation Issue: A significant challenge occurred where the GitHub Actions workflow was not being detected by the system. The "Actions" tab consistently showed "0 workflows" despite the .yml file being present in the correct .github/workflows/ directory on the main branch.
+
+Troubleshooting Steps:
+
+-   We repeatedly verified the file path and YAML syntax.
+
+-   We confirmed that Actions were enabled in the repository settings.
+
+-   We attempted to "unstick" the branch sync by making new commits and pull requests.
+
+-   We even deleted and recreated the workflow file from scratch.
+
+**The Solution: The issue was resolved through manual intervention. By navigating to the "Actions" tab and manually triggering the workflow, we were able to force the system to recognize, validate, and execute the pipeline. This successful manual run created the repository on Docker Hub and confirmed the automation is now correctly set up to run automatically on all future version tags. This was a valuable lesson in how to resolve platform-side synchronization issues.
 
 This troubleshooting process was a valuable, real-world example of how to diagnose and solve issues in a DevOps environment. 
 
