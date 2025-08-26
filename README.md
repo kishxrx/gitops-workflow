@@ -24,24 +24,17 @@ The long-term goal is to evolve this application into a **"DevOps Daily Quote En
 
 ---
 
-## 🛠️ Getting Started
+## 🐳 Docker Hub Repository
 
-There are two ways to run this project: locally with Python or with Docker (recommended).
+The official Docker image for this project is hosted on Docker Hub.
 
-### Running with Docker
+https://hub.docker.com/r/kishxrx/gitops-workflow
 
-This is the easiest and most reliable way to run the application, as it works the same on any machine.
+### You can pull the latest version using the following command:
 
-1.  **Ensure you have Docker installed.**
-2.  **Pull the image from Docker Hub:**
     ```sh
-    docker pull kingg123/gitops-workflow:latest
+    docker pull kishxrx/gitops-workflow:latest
     ```
-3.  **Run the container:**
-    ```sh
-    docker run -p 8080:8080 kingg123/gitops-workflow:latest
-    ```
-    The application will be available at `http://localhost:8080`.
 
 ---
 
