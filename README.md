@@ -5,7 +5,7 @@
 ![CI/CD](https://img.shields.io/badge/CI/CD-GitHub_Actions-purple.svg)
 ![Containerization](https://img.shields.io/badge/Container-Docker-blue.svg)
 
-This project demonstrates a complete Git and DevOps workflow, from version control to automated containerization and deployment. It was created as part of the Elevate Labs Internship and showcases modern software development best practices.
+This project demonstrates a complete Git and DevOps workflow, from version control to automated containerization and deployment. It showcases modern software development best practices.
 
 ---
 
