@@ -69,6 +69,6 @@ A key part of this project was setting up and debugging the CI/CD pipeline. Here
     -   Confirming that repository settings had Actions enabled.
 -   **The Solution:** The issue was resolved by systematically simplifying the workflow file to identify a subtle syntax error related to a secret name (`DOCKERHUB_TOKEN` vs. `DOCKERHUB_PASSWORD`). This highlighted the importance of meticulous syntax and configuration management in CI/CD pipelines.
 
-This troubleshooting process was a valuable, real-world example of how to diagnose and solve issues in a DevOps environment.
+This troubleshooting process was a valuable, real-world example of how to diagnose and solve issues in a DevOps environment. 
 
 ---
