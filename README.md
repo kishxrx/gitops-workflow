@@ -68,6 +68,6 @@ Troubleshooting Steps:
 
 **The Solution:** The issue was resolved through manual intervention. By navigating to the "Actions" tab and manually triggering the workflow, we were able to force the system to recognize, validate, and execute the pipeline. This successful manual run created the repository on Docker Hub and confirmed the automation is now correctly set up to run automatically on all future version tags. This was a valuable lesson in how to resolve platform-side synchronization issues.
 
-This troubleshooting process was a valuable, real-world example of how to diagnose and solve issues in a DevOps environment. 
+This troubleshooting process was a valuable, real-world example of how to diagnose and solve issues in a DevOps environment.
 
 ---
